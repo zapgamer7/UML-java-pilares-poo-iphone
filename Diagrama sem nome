@@ -1,0 +1,43 @@
+<mxfile host="app.diagrams.net" modified="2023-10-12T02:07:49.409Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/118.0" etag="W2I09q62834Gr9rs6JUM" version="22.0.4" type="google">
+  <diagram name="Página-1" id="uFqkilT9jBDuBv3O7CUG">
+    <mxGraphModel dx="880" dy="483" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="fs8tY63d5v3tHBpmXio7-1" value="&lt;div&gt;&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Reprodutor Musical&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;hr&gt;&lt;div align=&quot;justify&quot;&gt;+ tocar():void&lt;/div&gt;&lt;/div&gt;&lt;div align=&quot;justify&quot;&gt;+ pausar():void&lt;/div&gt;&lt;div align=&quot;justify&quot;&gt;+ selecionarMusica():void&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="67.5" y="40" width="145" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="gbc7x9aOdOcvcE0Y2yOU-1" value="&lt;div&gt;&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Aparelho Telefônico&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;hr&gt;&lt;div align=&quot;justify&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;div align=&quot;justify&quot;&gt;+ ligar()&lt;/div&gt;&lt;div align=&quot;justify&quot;&gt;+ atender()&lt;/div&gt;&lt;div align=&quot;justify&quot;&gt;+ iniciarCorrerioVoz()&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="462.5" y="40" width="145" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="gbc7x9aOdOcvcE0Y2yOU-3" value="&lt;div&gt;&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Navegador na Internet&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;hr&gt;&lt;div align=&quot;justify&quot;&gt;+ exibirPagina()&amp;nbsp;&lt;/div&gt;&lt;/div&gt;&lt;div align=&quot;justify&quot;&gt;+ adicionarNovaAba()&lt;/div&gt;&lt;div align=&quot;justify&quot;&gt;+ atualizarPagina()&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="268.5" y="40" width="145" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="gbc7x9aOdOcvcE0Y2yOU-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gbc7x9aOdOcvcE0Y2yOU-5" target="fs8tY63d5v3tHBpmXio7-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gbc7x9aOdOcvcE0Y2yOU-5" value="&lt;div&gt;MP3&lt;/div&gt;&lt;div&gt;&lt;hr&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="320" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="gbc7x9aOdOcvcE0Y2yOU-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gbc7x9aOdOcvcE0Y2yOU-7" target="gbc7x9aOdOcvcE0Y2yOU-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gbc7x9aOdOcvcE0Y2yOU-7" value="&lt;div&gt;&lt;b&gt;Telefone fixo&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;hr&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="475" y="320" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="gbc7x9aOdOcvcE0Y2yOU-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="gbc7x9aOdOcvcE0Y2yOU-10" target="fs8tY63d5v3tHBpmXio7-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gbc7x9aOdOcvcE0Y2yOU-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="gbc7x9aOdOcvcE0Y2yOU-10" target="gbc7x9aOdOcvcE0Y2yOU-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gbc7x9aOdOcvcE0Y2yOU-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="gbc7x9aOdOcvcE0Y2yOU-10" target="gbc7x9aOdOcvcE0Y2yOU-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gbc7x9aOdOcvcE0Y2yOU-10" value="&lt;div&gt;&lt;b&gt;Iphone&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;hr&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="281" y="400" width="120" height="120" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
